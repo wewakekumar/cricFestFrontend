@@ -1,0 +1,22 @@
+@import "../../styles/colors.scss";
+@import "../../styles/dimensions.scss";
+
+.button {
+    border-radius: $roundedEdged;
+    background-color:$primaryColor;
+    font-weight: bold;
+    color: $secondaryColor;
+    border: none;
+    outline: none;
+    padding: $normalPadding $veryLoosePadding;
+    &:hover {
+        cursor: pointer;
+        background-color: $secondaryColor;
+        color: $primaryColor
+    }
+}
+
+.stretchedButton {
+    @extend .button ;
+    padding: $tightPadding $veryLoosePadding;
+}

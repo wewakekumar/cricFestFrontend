@@ -1,18 +1,12 @@
-import React from 'react';
-import 'antd/dist/antd.css';
-import { Layout, Typography, Row, Col } from 'antd';
-import './App.css';
+import React from "react";
 
-const { Header, Content } = Layout;
+import { HomePage } from "Containers";
 
+import "./App.css";
+import "antd/dist/antd.css";
 
 const App: React.FunctionComponent = () => {
-  return (
-    <Layout>
-      <Header></Header>
-      <Content></Content>
-    </Layout>
-  );
-}
+  return <HomePage />;
+};
 
 export default App;
