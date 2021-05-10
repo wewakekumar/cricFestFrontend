@@ -1,26 +1,2 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@700&family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@500&display=swap');
 @import "../../styles/colors.scss";
-
-.heading {
-    color: $primaryColor;
-    font-weight: bold;
-}
-
-.heading1 {
-    font-family: Roboto;
-    letter-spacing: 2px;
-    font-size: 20px;
-
-}
-
-.heading2 {
-    font-family: Globlin;
-    font-size: 85px;
-}
-
-.heading3 {
-    font-family: Montserrat;
-    font-size: 40px;
-}
