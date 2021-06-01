@@ -12,22 +12,20 @@
     font-family: Montserrat;
 }
 
-.benefit {
-    padding: $normalPadding;
-    margin: $normalMargin;
-    margin-top: $moreSpacedMargin;
-}
-
 .imgContainer {
     border-radius: $roundedCorners;
     overflow: hidden;
 }
 
 .heading {
-    font-size: 30px;
+    font-size: 25px;
     font-family: Montserrat;
     color: $primaryColor;
+    margin-top: $normalMargin;
+    margin-bottom: $normalMargin;
+    display: inline;
 }
+
 
 .desc {
     font-size: 20px;
